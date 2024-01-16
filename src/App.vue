@@ -1,16 +1,20 @@
 <template>
-  <WelcomeBox msg="Welcome to Globish" />
+  <!-- <WelcomeBox msg="Welcome to Globish" /> -->
+  <div id="nav">
+    <!-- <router-link to="/">Home</router-link> -->
+  </div>
+  <router-view />
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import WelcomeBox from "./components/WelcomeBox.vue";
+// import WelcomeBox from "./components/WelcomeBox.vue";
 
 export default defineComponent({
   name: "App",
-  components: {
-    WelcomeBox,
-  },
+  // components: {
+  //   WelcomeBox,
+  // },
 });
 </script>
 
@@ -21,5 +25,8 @@ export default defineComponent({
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  justify-content: center;
+  justify-items: center;
+  display: flex;
 }
 </style>
