@@ -6,7 +6,6 @@
 2. npm install vue-router@4
 3. npm install vuex
 4. ลบไฟล node_modules และ package-lock.json และ package.json ทิ้งแล้ว npm i ใหม่
-5. 
 
 # Personality Test Project
 
