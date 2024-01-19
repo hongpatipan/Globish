@@ -1,3 +1,10 @@
+# สำคัญ
+###### ถ้ารันไม่ได้ ทำตามขั้นตอน
+-npm i
+-npm install vue-router@4
+-npm install vuex
+-ลบไฟล node_modules และ package-lock.json และ package.json ทิ้งแล้ว npm i ใหม่
+
 # Personality Test Project
 
 
